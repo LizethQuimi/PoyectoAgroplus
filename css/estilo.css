@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(30, 78, 42);
+
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    max-height: 90px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.container {
+    position: relative;
+}
+
+.productos-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.productos-btn:hover {
+    background-color: #45a049;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(30, 78, 42);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(152, 211, 174)
+}
+
+
+body,
+footer {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.responsive {
+    float: left;
+    padding: 5px;
+    width: 24.99999%; 
+    height: max-content;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 400px;
+}
+
+div.desc {
+    padding: 30px;
+    text-align:center;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0; 
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+     
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
